@@ -19,7 +19,11 @@ public class anonymous_object
 {
     public static void main(String args[])
     {
-        A obj = new A();
-        obj.show();
+        // A obj = new A();
+        // obj.show();
+
+        new A(); // anonymous object
+        new A().show();
     }
 }
+
