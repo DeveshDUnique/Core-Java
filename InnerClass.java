@@ -1,3 +1,21 @@
+public class InnerClass
+{
+    public static void main(String a[])
+    {
+        a obj = new a();
+        obj.show();
+
+        a.b obj1 = obj.new b(); // creating object of inner class b which is non- static
+        obj1.config();
+
+        a.c obj2 = new a.c();
+        obj2.stats();
+
+
+    
+    }    
+}
+
 class a
 {
     int age;
@@ -27,20 +45,4 @@ class a
 }
 
 
-public class inner_class
-{
-    public static void main(String a[])
-    {
-        a obj = new a();
-        obj.show();
 
-        a.b obj1 = obj.new b(); // creating object of inner class b which is non- static
-        obj1.config();
-
-        a.c obj2 = new a.c();
-        obj2.stats();
-
-
-    
-    }    
-}

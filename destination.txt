@@ -1,0 +1,2 @@
+Hello there this is file i/o
+for reading and then writing to another file!

@@ -13,6 +13,8 @@ class human
     {
         this.name = name; // this always point to the current object here to "dev"
     }
+
+    
    
 
     public int getAge() 

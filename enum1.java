@@ -5,13 +5,11 @@ enum Status
 }
 
 
-
-
 public class enum1 
 {
     public static void main(String args[])
     {
-        Status s= Status.Running;
+        Status s = Status.Running;
         Status t = Status.Failed;
         System.out.println(s);
         System.out.println(t);
@@ -19,18 +17,13 @@ public class enum1
         // ordinal method returns position in its enum declaration 
 
         System.out.println(t.ordinal());
-
-       
-
         Status [] d = Status.values();
 
          // for printing all the enum objects
         for(Status i: d)
         {
-            System.out.println(i);
+            System.out.println("All Enum objects " + i);
         }
-
-
     }
 }
 

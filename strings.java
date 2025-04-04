@@ -14,7 +14,7 @@ public class strings {
 
         name1 = name1 + "patil"; // this will create new object with new address in heap memory
 
-        System.out.println(name1);
+        System.out.println(name1); 
 
 
         // String Buffer is mutable where we can change it also its thread safe.
@@ -28,6 +28,20 @@ public class strings {
         System.out.println(sb1.deleteCharAt(1)); // deleting character at specific index
         System.out.println(sb1.append("Dev"));
 
+
+
+        //StringBuilder is not thread safe
+        StringBuilder ss = new StringBuilder("");
+        System.out.println(ss.capacity());  // string 
+
+        StringBuilder ss1 = new StringBuilder("dev");
+
+        System.out.println(ss.equals(ss1)); //false 
+
+        // Using hashCode (from Object class)
+        System.out.println(ss.hashCode() == ss1.hashCode());  // false
+
+        //Stringbuilder and string buffer do not overide the hashcode and equals as they are mutable
 
 
 

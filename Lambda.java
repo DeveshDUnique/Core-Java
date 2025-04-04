@@ -14,14 +14,10 @@ public class Lambda
         //A obj  = (i) -> System.out.println("in show" + ":" +i); 
         
     //obj.show(3);
-
-
         A obj = (int i, int j) ->  i+j;
-            
-      
-
         int result = obj.add(5, 8);
         System.out.println(result);
+        
     }    
 }
 

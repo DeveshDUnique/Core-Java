@@ -1,7 +1,6 @@
 public class conditional_statements{
-    public static void main(String[] args){
-
-
+    public static void main(String[] args)
+    {
         int c =14;
         int v = 93;
         int g = 88;
@@ -22,9 +21,6 @@ public class conditional_statements{
 
         int result = c%2==0 ? 1 : 0;
         System.out.println(result);
-
-
-
     }
 }
 

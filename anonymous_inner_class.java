@@ -11,7 +11,10 @@ public class anonymous_inner_class
 {
     public static void main(String args[])
     {
-        A obj = new A()  /// declaration of anonymous inner class
+        // A a = new A();
+        // a.show(); // Here the above class A method void will be called.
+
+        A obj = new A()  // declaration of anonymous inner class
         {
             public void show()
             {
@@ -21,7 +24,6 @@ public class anonymous_inner_class
         obj.show(); 
     }    
 }
-
 
 
 

@@ -1,6 +1,6 @@
 //final class calc  // final class decleration
 
-class calc
+final public class calc
 {
     final public void show()  // constant show() method that cannot be overidden by advcalc
     {
@@ -14,7 +14,7 @@ class calc
 }
 
 
-class advcalc extends calc
+class advcalc extends calc  // cannot overide the final parent class
 {
     public void show()
     {

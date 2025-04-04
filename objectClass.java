@@ -32,8 +32,7 @@ public class objectClass
         lp.prices = 84586;
 
         //System.out.println(lp.toString()); //everytime we try to print the object by-default it will call the toString method
-
-
+        
         laptop lp1 = new laptop();
         lp1.model = "asus";
         lp1.prices = 84586;

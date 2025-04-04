@@ -4,7 +4,6 @@ interface computer
     
 }
 
-
 class laptop implements computer
 {
     public void code()
@@ -21,7 +20,6 @@ class desktop implements computer
     }
 }
 
-
 class developer
 {
     public void devApp(computer obj)
@@ -29,9 +27,6 @@ class developer
         obj.code();
     }
 }
-
-
-
 
 public class interface1 
 {

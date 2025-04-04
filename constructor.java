@@ -12,8 +12,6 @@ class human
         this.age = age;
     }
 
-    
-
     public String getName() {
         return name;
     }
@@ -36,7 +34,6 @@ class human
     }
 
 }
-
 
 public class constructor 
 {

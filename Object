@@ -1,0 +1,66 @@
+An object has state, behaviour and identity.
+Why are State, Behavior, and Identity Important in Object-Oriented Programming (OOP)?
+
+Modeling Real-World Entities: Objects help us model real-world things more naturally in code. Real-world entities have characteristics (state), actions they can perform (behavior), and are distinct individuals (identity).
+
+Organization and Structure: OOP with objects helps to organize code into manageable, reusable, and modular units.
+
+Abstraction: Objects abstract away complex details and provide a simplified interface to interact with them. You don't need to know how a dog barks internally, just that you can tell a dog object to bark.
+
+Encapsulation: Objects bundle state and behavior together, controlling access to the state and how it can be modified, promoting data integrity.
+
+In essence, understanding state, behavior, and identity is fundamental to grasping the core principles of object-oriented programming and how objects are used to build software.
+
+analogy: Think of a "Dog" as an object.
+
+1. State: What an object knows (Data)
+
+Simple Definition: The state of an object is like its characteristics or attributes at any given moment. It's the data that describes the object.
+
+Dog Example:  Think about what describes a specific dog:
+
+Breed: Labrador, German Shepherd, Poodle, etc.
+Color: Black, brown, white, spotted, etc.
+Name: Buddy, Max, Lucy, etc.
+Age: 3 years old, 7 months old, etc.
+Weight: 60 pounds, 25 kilograms, etc.
+IsSleeping: True or False (Is the dog currently sleeping?)
+Mood: Happy, playful, tired, etc.
+These are all pieces of information or data that describe the current state of a particular dog object.  The state can change over time. For example, a dog's age will increase, its weight might change, and it might go from "IsSleeping: False" to "IsSleeping: True".
+
+In Programming Terms:  State is often represented by variables (also called attributes, fields, or properties) within an object.  These variables hold data values.
+
+2. Behavior: What an object can do (Actions)
+
+Simple Definition:  The behavior of an object is what it can do or the actions it can perform. It's what you can ask an object to do.
+
+Dog Example:  What can a dog do?
+Bark: dog.bark()
+Eat: dog.eat(food)
+Sleep: dog.sleep()
+Fetch: dog.fetch(ball)
+WagTail: dog.wagTail()
+Walk: dog.walk(distance)
+GetBreed: dog.getBreed() (give you information about its state)
+These are all actions or operations that a dog object can perform.  The behavior is what the object does.
+
+In Programming Terms: Behavior is implemented using methods (also called functions or operations) within an object. Methods define the actions an object can take.
+
+3. Identity: What makes an object unique
+
+Simple Definition:  Identity is what makes each object distinct and unique, even if they have the same state and behavior.  It's like saying "This is this specific dog, not just any dog."
+
+Dog Example: Imagine you have two Labrador dogs that look exactly alike and have the same name ("Buddy").  However, they are still two different dogs.  They exist independently, they might be in different locations, they have their own separate existence. Even if they have the same breed, color, name, and are doing the same thing (like sleeping), they are still not the same dog.
+
+In Programming Terms: Identity is often related to the object's memory address. When you create a new object, the computer allocates a space in memory to store it.  The object's identity is essentially its unique location in memory.  Even if two objects have the same state (same values for all their variables), if they are stored at different memory locations, they are considered to have different identities.
+
+Analogy Recap:
+
+Think of an object like a blueprint for creating things. The "Dog" class is like a blueprint for making dog objects.
+
+State: The variables (breed, color, name, age, etc.) are like the specifications on the blueprint that can be customized for each individual dog.
+
+Behavior: The methods (bark, eat, sleep, fetch, etc.) are like the instructions on the blueprint that all dog objects created from that blueprint can follow.
+
+Identity: Each time you use the blueprint to create a dog, you get a unique individual dog, even if they are all based on the same blueprint and have similar characteristics. Each dog has its own separate existence (its own identity).
+

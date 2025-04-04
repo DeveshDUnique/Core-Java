@@ -10,11 +10,11 @@ public class naming_convention
 
 
 
-// Camel casing
 
-// classes and interface we have capital letters. -> Calc , Runable
 
-// variables and methods we have small letters. -> mks, show()
+// classes, interface and enum we have capital letters. -> Calc , Runable  // Pascal Case
+
+// variables and methods we have small letters. -> mks, show() // camel Casing
 
 //constant - PIE, BRAND
 
