@@ -8,22 +8,22 @@ public class FailSafeFailFast {
     public static void main(String[] args) {
 		
 		// fail-fast iterator
-		// List<String> list1 = new ArrayList<>();
-		// list1.add("A");
-		// list1.add("B");
-		// list1.add("C");
-		// list1.add("D");
-		// list1.add("E");
-		// Iterator<String> itr1 = list1.iterator();
-		// while(itr1.hasNext()) {
-		// 	String ele = itr1.next(); // throws ConcurrentModificationException after adding "X".
-		// 	System.out.println(ele);
-		// 	if(ele.equals("C"))
-		// 		list1.add("X");
-		// }
+		List<String> list1 = new ArrayList<>();
+		list1.add("A");
+		list1.add("B");
+		list1.add("C");
+		list1.add("D");
+		list1.add("E");
+		Iterator<String> itr1 = list1.iterator();
+		while(itr1.hasNext()) {
+			String ele = itr1.next(); // throws ConcurrentModificationException after adding "X".
+			System.out.println(ele);
+			if(ele.equals("C"))
+				list1.add("X");
+		}
 		
 		
-		// fail-safe iterator
+		// fail-safe iterator.
 		List<String> list2 = new CopyOnWriteArrayList<>();
 		list2.add("A");
 		list2.add("B");
@@ -40,15 +40,3 @@ public class FailSafeFailFast {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-    

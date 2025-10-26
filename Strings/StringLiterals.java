@@ -8,13 +8,14 @@ public class StringLiterals {
         String s1 = new String("Sunbeam").intern(); // intern will convert the string objects to string literal pool
         String s2 = new String("Sunbeam").intern(); //
 
-        System.out.println("s1=s2 " + (s1==s2));
+        System.out.println("Equal in reference s1=s2 " + (s1==s2));
 
-        String s3 = "sunbeam";
+        String s3 = "Sunbeam";
+        System.out.println("Equal in the reference s1=s3 "+ (s1==s3));
         String s4 = new String("sunbeam");
 
-        System.out.println("equal in reference s3 and s4 "+s3==s4);
-        System.out.println("equal in the values the s3 and s4 = "+s3.equals(s4)); // compares the values
+        System.out.println("equal in reference s3 and s4 "+ (s3==s4));
+        System.out.println("equal in the values the s3 and s4 = "+ s3.equals(s4)); // compares the values       
 
         String s5 = s3.toUpperCase();
         System.out.println("is s3 and s5 equal in reference = "+ s3==s5);

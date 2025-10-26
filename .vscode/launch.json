@@ -1,0 +1,1253 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MergeArrays",
+            "request": "launch",
+            "mainClass": "Streams.MergeArrays",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "MapSorting",
+            "request": "launch",
+            "mainClass": "Streams.MapSorting",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "SecondHighestInArray",
+            "request": "launch",
+            "mainClass": "Streams.SecondHighestInArray",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "StringStartsWith",
+            "request": "launch",
+            "mainClass": "Streams.StringStartsWith",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "MergeListIntegers",
+            "request": "launch",
+            "mainClass": "Streams.MergeListIntegers",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "ProductOfIntegers",
+            "request": "launch",
+            "mainClass": "Streams.ProductOfIntegers",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "StringsToList",
+            "request": "launch",
+            "mainClass": "Streams.StringsToList",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "SumOfSquares",
+            "request": "launch",
+            "mainClass": "Streams.SumOfSquares",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "InfiniteSequenceRandom",
+            "request": "launch",
+            "mainClass": "Streams.InfiniteSequenceRandom",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "EvenOddPartition",
+            "request": "launch",
+            "mainClass": "Streams.EvenOddPartition",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "FilterNull",
+            "request": "launch",
+            "mainClass": "Streams.FilterNull",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "UniqueWordsCollector",
+            "request": "launch",
+            "mainClass": "Streams.UniqueWordsCollector",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "SkipElements",
+            "request": "launch",
+            "mainClass": "Streams.SkipElements",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Person",
+            "request": "launch",
+            "mainClass": "Streams.Person",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Transactions",
+            "request": "launch",
+            "mainClass": "Streams.Transactions",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "FlattenIntegers",
+            "request": "launch",
+            "mainClass": "Streams.FlattenIntegers",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "FilterListOfNumbers",
+            "request": "launch",
+            "mainClass": "Streams.FilterListOfNumbers",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "GroupStrings",
+            "request": "launch",
+            "mainClass": "Streams.GroupStrings",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "CountFrequencyOfCharacters",
+            "request": "launch",
+            "mainClass": "Streams.CountFrequencyOfCharacters",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "FirstNonRepeatingCharacter",
+            "request": "launch",
+            "mainClass": "Streams.FirstNonRepeatingCharacter",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "ConcatinateString",
+            "request": "launch",
+            "mainClass": "Streams.ConcatinateString",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "NumbersStarting",
+            "request": "launch",
+            "mainClass": "Streams.NumbersStarting",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "SpecialCharacters",
+            "request": "launch",
+            "mainClass": "Streams.SpecialCharacters",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "CharacterOccurance",
+            "request": "launch",
+            "mainClass": "Streams.CharacterOccurance",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "DupliElements",
+            "request": "launch",
+            "mainClass": "Streams.DupliElements",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "OddEven",
+            "request": "launch",
+            "mainClass": "Streams.OddEven",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "Streams.Employee",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "SeatBooking",
+            "request": "launch",
+            "mainClass": "MultiThreading.StadiumSeatBooking.SeatBooking",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "StringToInt",
+            "request": "launch",
+            "mainClass": "Normal_Programs.StringToInt",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Integerint",
+            "request": "launch",
+            "mainClass": "Normal_Programs.Integerint",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "PrintIndex",
+            "request": "launch",
+            "mainClass": "PrintIndex",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "RateLimiter",
+            "request": "launch",
+            "mainClass": "APIRATELMITER.RateLimiter",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Annotations",
+            "request": "launch",
+            "mainClass": "Annotations",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "ArException",
+            "request": "launch",
+            "mainClass": "ArException",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Arrays1",
+            "request": "launch",
+            "mainClass": "Arrays.Arrays1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "ArraysList",
+            "request": "launch",
+            "mainClass": "ArraysList",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "BuilderPattern",
+            "request": "launch",
+            "mainClass": "BuilderPattern",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Calenders",
+            "request": "launch",
+            "mainClass": "Calenders",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "ImmutableCls",
+            "request": "launch",
+            "mainClass": "Class.ImmutableCls",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "ClonableInterface",
+            "request": "launch",
+            "mainClass": "ClonableInterface",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Clone",
+            "request": "launch",
+            "mainClass": "Clone",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Collections1",
+            "request": "launch",
+            "mainClass": "Collections1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Comparable",
+            "request": "launch",
+            "mainClass": "Comparable",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Comparator1",
+            "request": "launch",
+            "mainClass": "Comparator1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "ConstructorChaining",
+            "request": "launch",
+            "mainClass": "ConstructorChaining",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "CustomException",
+            "request": "launch",
+            "mainClass": "CustomException",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Date",
+            "request": "launch",
+            "mainClass": "Date",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Design_Patterns.BehavioralPatterns.ObserverPattern.Main",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "Design_Patterns.BehavioralPatterns.StrategyPattern.Main",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "Design_Patterns.CreationalPatterns.AbstractFactoryPattern.Main",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "Design_Patterns.CreationalPatterns.BuilderPattern.Main",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "Design_Patterns.CreationalPatterns.FactoryPattern.Main",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "SingletonEagerThreadSafe",
+            "request": "launch",
+            "mainClass": "Design_Patterns.CreationalPatterns.SingletonPattern.SingletonEagerThreadSafe",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "SingletonLazy",
+            "request": "launch",
+            "mainClass": "Design_Patterns.CreationalPatterns.SingletonPattern.SingletonLazy",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "SingletonLazyThreadSafe",
+            "request": "launch",
+            "mainClass": "Design_Patterns.CreationalPatterns.SingletonPattern.SingletonLazyThreadSafe",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "Design_Patterns.StructuralPatterns.AdapterPattern.Main",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "Design_Patterns.StructuralPatterns.FacadePattern.Main",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Downcasting",
+            "request": "launch",
+            "mainClass": "Downcasting",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Employee",
+            "request": "launch",
+            "mainClass": "Employee",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "EqualsHashCode",
+            "request": "launch",
+            "mainClass": "EqualsHashCode",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Exception1",
+            "request": "launch",
+            "mainClass": "Exception1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "CheckedExceptionTime",
+            "request": "launch",
+            "mainClass": "Exceptions.CheckedExceptionTime",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "TryWithResourcesDemo",
+            "request": "launch",
+            "mainClass": "Exceptions.TryWithResourcesDemo",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "UncheckedExceptionDate",
+            "request": "launch",
+            "mainClass": "Exceptions.UncheckedExceptionDate",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "FailSafeFailFast",
+            "request": "launch",
+            "mainClass": "FailSafeFailFast",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "FileDataOperations",
+            "request": "launch",
+            "mainClass": "FileDataOperations",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "FileOperations",
+            "request": "launch",
+            "mainClass": "FileOperations",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "FileOperations1",
+            "request": "launch",
+            "mainClass": "FileOperations1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "FileSerializationObject",
+            "request": "launch",
+            "mainClass": "FileSerializationObject",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "FileUsingList",
+            "request": "launch",
+            "mainClass": "FileUsingList",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Final",
+            "request": "launch",
+            "mainClass": "Final.Final",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Final_Referrence",
+            "request": "launch",
+            "mainClass": "Final.Final_Referrence",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Finals",
+            "request": "launch",
+            "mainClass": "Final.Finals",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "finall",
+            "request": "launch",
+            "mainClass": "Final.finall",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Gen",
+            "request": "launch",
+            "mainClass": "Gen",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Generics",
+            "request": "launch",
+            "mainClass": "Generics",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Boundedgeneric",
+            "request": "launch",
+            "mainClass": "Generics.Boundedgeneric",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Demo1",
+            "request": "launch",
+            "mainClass": "Generics.Demo1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Demo2",
+            "request": "launch",
+            "mainClass": "Generics.Demo2",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "GenericMethods",
+            "request": "launch",
+            "mainClass": "Generics.GenericMethods",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "TypeEreaserGenerics",
+            "request": "launch",
+            "mainClass": "Generics.TypeEreaserGenerics",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Unboundedgeneric",
+            "request": "launch",
+            "mainClass": "Generics.Unboundedgeneric",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Generics2",
+            "request": "launch",
+            "mainClass": "Generics2",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "GenericsLowerBound",
+            "request": "launch",
+            "mainClass": "GenericsLowerBound",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "GenericsUpperBound",
+            "request": "launch",
+            "mainClass": "GenericsUpperBound",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "HashMaps",
+            "request": "launch",
+            "mainClass": "HashMaps",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "HashSets",
+            "request": "launch",
+            "mainClass": "HashSets",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "HashSetsMain",
+            "request": "launch",
+            "mainClass": "HashSetsMain",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "HashTables",
+            "request": "launch",
+            "mainClass": "HashTable.HashTables",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "InnerClass",
+            "request": "launch",
+            "mainClass": "InnerClass",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Iteration",
+            "request": "launch",
+            "mainClass": "Iteration",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Iterations",
+            "request": "launch",
+            "mainClass": "Iterations",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "JavapTool",
+            "request": "launch",
+            "mainClass": "JavapTool",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Jdbc",
+            "request": "launch",
+            "mainClass": "Jdbc",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "CapturingLambda",
+            "request": "launch",
+            "mainClass": "Lambda.CapturingLambda",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "NonCapturingLamba",
+            "request": "launch",
+            "mainClass": "Lambda.NonCapturingLamba",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "LamdasAll",
+            "request": "launch",
+            "mainClass": "LamdasAll",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Launch",
+            "request": "launch",
+            "mainClass": "Launch",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Lists",
+            "request": "launch",
+            "mainClass": "Lists",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Collectionss",
+            "request": "launch",
+            "mainClass": "Lists.Collectionss",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Demo1(1)",
+            "request": "launch",
+            "mainClass": "Lists.Demo1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Demo2(1)",
+            "request": "launch",
+            "mainClass": "Lists.Demo2",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Demo3",
+            "request": "launch",
+            "mainClass": "Lists.Demo3",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "DoublyLinkedList",
+            "request": "launch",
+            "mainClass": "Lists.DoublyLinkedList",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Linkedlists",
+            "request": "launch",
+            "mainClass": "Lists.Linkedlists",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "ConCurrentHashMap",
+            "request": "launch",
+            "mainClass": "Maps.ConCurrentHashMap",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "CustomHashMap",
+            "request": "launch",
+            "mainClass": "Maps.CustomHashMap",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Demo1(2)",
+            "request": "launch",
+            "mainClass": "Maps.Demo1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "MapEntry",
+            "request": "launch",
+            "mainClass": "Maps.MapEntry",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "MethodReferences",
+            "request": "launch",
+            "mainClass": "MethodReferences",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "LocalClass",
+            "request": "launch",
+            "mainClass": "NestedClasses.LocalClass",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "NonStaticNestedClasses",
+            "request": "launch",
+            "mainClass": "NestedClasses.NonStaticNestedClasses",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "StaticNestedClasses",
+            "request": "launch",
+            "mainClass": "NestedClasses.StaticNestedClasses",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Abs",
+            "request": "launch",
+            "mainClass": "OOPS.Abstraction.Abs",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "AbstractClassfinal",
+            "request": "launch",
+            "mainClass": "OOPS.Abstraction.AbstractClassfinal",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "AnnoymousInnerClass",
+            "request": "launch",
+            "mainClass": "OOPS.Abstraction.AnnoymousInnerClass",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "abstract_anonymous_inner_class",
+            "request": "launch",
+            "mainClass": "OOPS.Abstraction.abstract_anonymous_inner_class",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceAll",
+            "request": "launch",
+            "mainClass": "OOPS.Inheritance.Interfaces.InterfaceAll",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceAmbiguity",
+            "request": "launch",
+            "mainClass": "OOPS.Inheritance.Interfaces.InterfaceAmbiguity",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceCalling",
+            "request": "launch",
+            "mainClass": "OOPS.Inheritance.Interfaces.InterfaceCalling",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceDefault",
+            "request": "launch",
+            "mainClass": "OOPS.Inheritance.Interfaces.InterfaceDefault",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceFunctional1",
+            "request": "launch",
+            "mainClass": "OOPS.Inheritance.Interfaces.InterfaceFunctional1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "MarkerImplementation",
+            "request": "launch",
+            "mainClass": "OOPS.Inheritance.Interfaces.MarkerImplementation",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "interface1",
+            "request": "launch",
+            "mainClass": "OOPS.Inheritance.Interfaces.interface1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "interface2",
+            "request": "launch",
+            "mainClass": "OOPS.Inheritance.Interfaces.interface2",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "ObjectClasss",
+            "request": "launch",
+            "mainClass": "ObjectClasss",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "ObjectInitializer",
+            "request": "launch",
+            "mainClass": "ObjectInitializer",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "PassByValue",
+            "request": "launch",
+            "mainClass": "PassByValue",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Dequeues",
+            "request": "launch",
+            "mainClass": "Queue.Dequeues",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Queues",
+            "request": "launch",
+            "mainClass": "Queue.Queues",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Queues(1)",
+            "request": "launch",
+            "mainClass": "Queues",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Queues2",
+            "request": "launch",
+            "mainClass": "Queues2",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Reflection1",
+            "request": "launch",
+            "mainClass": "Reflection1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "ShoppingMall",
+            "request": "launch",
+            "mainClass": "SOLID_Principles.DependencyInversionPrinciple.ShoppingMall",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Demo1(3)",
+            "request": "launch",
+            "mainClass": "Set.Demo1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Sets",
+            "request": "launch",
+            "mainClass": "Set.Sets",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "StaticStudent",
+            "request": "launch",
+            "mainClass": "StaticStudent",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Streams",
+            "request": "launch",
+            "mainClass": "Streams",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Demo1(4)",
+            "request": "launch",
+            "mainClass": "Streams.Demo1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "StringTokenizer1",
+            "request": "launch",
+            "mainClass": "StringTokenizer1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "StringTokenizer2",
+            "request": "launch",
+            "mainClass": "StringTokenizer2",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "StringBuildersAndBuffers",
+            "request": "launch",
+            "mainClass": "Strings.StringBuildersAndBuffers",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "StringLiterals",
+            "request": "launch",
+            "mainClass": "Strings.StringLiterals",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "StringReverse",
+            "request": "launch",
+            "mainClass": "Strings.StringReverse",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Thread1",
+            "request": "launch",
+            "mainClass": "Threads.Thread1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Thread2",
+            "request": "launch",
+            "mainClass": "Threads.Thread2",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "ToString",
+            "request": "launch",
+            "mainClass": "ToString",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Upcasting",
+            "request": "launch",
+            "mainClass": "Upcasting",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "VirtualThreadsExample",
+            "request": "launch",
+            "mainClass": "VirtualThreadsExample",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Boxing",
+            "request": "launch",
+            "mainClass": "WrapperClasses.Boxing",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "Unboxing",
+            "request": "launch",
+            "mainClass": "WrapperClasses.Unboxing",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "wrapper",
+            "request": "launch",
+            "mainClass": "WrapperClasses.wrapper",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "arrayobjects",
+            "request": "launch",
+            "mainClass": "arrayobjects",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "arrays",
+            "request": "launch",
+            "mainClass": "arrays",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "assignment_operator",
+            "request": "launch",
+            "mainClass": "assignment_operator",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "class_objects",
+            "request": "launch",
+            "mainClass": "class_objects",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "conditional_statements",
+            "request": "launch",
+            "mainClass": "conditional_statements",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "constructor(function Object() { [native code] }1)",
+            "request": "launch",
+            "mainClass": "constructor",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "demo1",
+            "request": "launch",
+            "mainClass": "demo1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "enum1",
+            "request": "launch",
+            "mainClass": "enum1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "enum1_class",
+            "request": "launch",
+            "mainClass": "enum1_class",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "exception_handling",
+            "request": "launch",
+            "mainClass": "exception_handling",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "javaPassByValue",
+            "request": "launch",
+            "mainClass": "javaPassByValue",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "literal",
+            "request": "launch",
+            "mainClass": "literal",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "logical_operator",
+            "request": "launch",
+            "mainClass": "logical_operator",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "loops",
+            "request": "launch",
+            "mainClass": "loops",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "mainMethod_overloading",
+            "request": "launch",
+            "mainClass": "mainMethod_overloading",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "method_overiding",
+            "request": "launch",
+            "mainClass": "method_overiding",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "relation_operator",
+            "request": "launch",
+            "mainClass": "relation_operator",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "statics",
+            "request": "launch",
+            "mainClass": "statics",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "strings",
+            "request": "launch",
+            "mainClass": "strings",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "switch_statements",
+            "request": "launch",
+            "mainClass": "switch_statements",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "package1",
+            "request": "launch",
+            "mainClass": "tools.package1",
+            "projectName": "Java_9b8abd94"
+        },
+        {
+            "type": "java",
+            "name": "typecasting",
+            "request": "launch",
+            "mainClass": "typecasting",
+            "projectName": "Java_9b8abd94"
+        }
+    ]
+}

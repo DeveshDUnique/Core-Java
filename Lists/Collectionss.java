@@ -37,7 +37,7 @@ public class Collectionss {
           List<String>  syncList = Collections.synchronizedList(ls);
           syncList.add("X");
           syncList.remove(3);
-          System.out.println(syncList);
+          System.out.println("Synchronized list = "+ syncList);
 
         String maxVal = Collections.max(ls);
 		System.out.println("Max Val: " + maxVal);

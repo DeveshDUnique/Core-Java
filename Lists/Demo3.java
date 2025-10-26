@@ -14,7 +14,7 @@ public class Demo3 {
     //Arraylist,linkedlist,vectors are fail-fast iterators.
     public static void main(String[] args) {
         List<String> ls = new ArrayList<>();
-        ls.add("a"); ls.add("b");ls.add("c");ls.add("d");
+        ls.add("a"); ls.add("b"); ls.add("c"); ls.add("d");
         Iterator<String> itr1 = ls.iterator();
         while (itr1.hasNext()) {
             String ele = itr1.next();
@@ -31,7 +31,7 @@ public class Demo3 {
         while (itr2.hasNext()) {
             String ele = itr2.next();
             if (ele.equals("q")) {
-                lss.add("No ConcurrentModificationException");
+                lss.add("X");
             }
             System.out.println(ele);
         }

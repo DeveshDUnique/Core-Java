@@ -18,8 +18,9 @@ public class Demo1 {
 		set.add(new Products(2, " Marker", 50.0));
 		set.add(new Products(5, " Pencil", 5.0)); // returns false if duplicate
 		
-		for (Products p : set)
-			System.out.println(p);
+		// for (Products p : set)
+		// 	System.out.println(p);
+		System.out.println(set);
 	}
     }
     

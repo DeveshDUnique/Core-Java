@@ -5,26 +5,26 @@ public class Date
     private int Day,Month,Year;
 
 
-    public void setDay(int day) throws InvalidDateException
+    public void setDay(int day)
     {
         if (day <1 || day >31)
         {
-            throw new InvalidDateException("Day",day);         
+            throw new InvalidDateException("Day "+ day);         
         }
         this.Day = day;
     }
 
-    public void setMonth(int month) throws InvalidDateException
+    public void setMonth(int month) 
     {
         if (month < 1 || month > 12)
         {
 
-            throw new InvalidDateException("Month",month);
+            throw new InvalidDateException("Month " + month);
         }
         this.Month = month;
     }
 
-    public void setYear(int year) throws InvalidDateException
+    public void setYear(int year)
     {
         if (year < 1970 || year > 2099)
         {

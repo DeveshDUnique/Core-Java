@@ -8,8 +8,9 @@ public class InvalidDateException extends RuntimeException
     private int fieldValue;
 
 
-    public InvalidDateException()
+    public InvalidDateException(String message)
     {
+        super(message);
 
     }
 

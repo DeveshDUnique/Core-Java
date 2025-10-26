@@ -27,7 +27,7 @@ public class Unboundedgeneric<T> {
     }
 
     public static void printCircle(Unboundedgeneric<? super Integer> lb){
-        /*Generic param type can be the given class or its super-class. */
+        /*Generic param type can be the given class or its super-class. it is for lowerbound */
         Object obj = lb.get();
         System.out.println("Circle contains LowerBound "+ obj);
     }

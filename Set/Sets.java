@@ -35,18 +35,19 @@ Slower than HashSet and LinkedHashSet*/
         Set<String> treeSet = new TreeSet<>();// does not overide the equals and the hashcode method as its based on the compareTo method
 
         hashSet.add("A");hashSet.add("B");hashSet.add("C");
-        hashSet.add(null); // null alloed in hashset
+        hashSet.add(null); // null allowed in hashset
+        hashSet.add(null);// multiple nulls will be considered as one null only
         System.out.println("Hashset = "+hashSet);
 
         linkedSet.add("A");linkedSet.add("B");linkedSet.add("C");
         linkedSet.add(null); // null allowed in linkedset
+        linkedSet.add(null); // multiple nulls will be considered as one null only
         System.out.println("LinkedHashSet = "+linkedSet);
 
         treeSet.add("A");treeSet.add("B");treeSet.add("C");
-        treeSet.add(null); // java.lang.NullPointerException // not sallowed
+       // treeSet.add(null); // java.lang.NullPointerException // not allowed
         System.out.println("Treeset = "+treeSet);
-
-        
+      
     }
     
 }

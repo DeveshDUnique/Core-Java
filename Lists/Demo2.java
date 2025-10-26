@@ -17,8 +17,9 @@ public class Demo2 {
 		list2.add(11);	// when new element added, capacity will grow.
 						// new capacity = 1.5 * old capacity = 10 + 5 = 15
         // System.out.println("Arraylist list2 capacity: " + list2.capacity()); // size=11
-		System.out.println("Arraylist list2 size: " + list2.size()); // size=11
 		System.out.println(list2.toString());
+		System.out.println("Arraylist list2 size: " + list2.size()); // size=11
+
 		
 		Vector<Integer> list3 = new Vector<>(); // initial capacity=10
 		System.out.println("vector list3 capacity: " + list3.capacity()); // capacity=0

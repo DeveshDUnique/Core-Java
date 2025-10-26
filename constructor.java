@@ -43,6 +43,7 @@ public class constructor
         System.out.println(hu.getAge() + " "+hu.getName());
 
         human ha = new human(13,"veran"); //
+        System.out.println(ha.getAge() +" "+ha.getName());
     }
 }
 

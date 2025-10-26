@@ -12,8 +12,7 @@ public class TypeEreaserGenerics {
 
 
         /*Although stringList is List<String> and intList is List<Integer>, Java erases type information at runtime.
-
-The two lists become the same raw type ArrayList, making stringList.getClass() == intList.getClass() return true. */
+        The two lists become the same raw type ArrayList, making stringList.getClass() == intList.getClass() return true. */
     }
     
 }

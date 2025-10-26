@@ -16,9 +16,7 @@ import java.util.Deque;
 
 public class Dequeues {
     public static void main(String[] args) {
-        /*ArrayDeque is generally more efficient than LinkedList for deque operations
-         (adding and removing from both ends) because it uses a resizable array internally.
-          It avoids the overhead of creating new node objects for each element, which LinkedList does. */
+        /*Deque interface provides a more complete and consistent set of LIFO stack operations*/
 
           Deque<String> deque = new ArrayDeque<>();
 
