@@ -16,7 +16,7 @@ class B extends A
 }
 
 
-public class up_down_casting 
+public class UpDownCasting 
 {
     public static void main(String args[])
     {

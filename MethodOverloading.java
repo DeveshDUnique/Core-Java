@@ -29,7 +29,7 @@ class read{
 
 
 
-public class method_overloading
+public class MethodOverloading
 {
     public static void main(String[] args)
     {

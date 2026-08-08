@@ -1,5 +1,5 @@
 
-class human
+class Human
 {
     private String name = "dev";
     private int age = 12;
@@ -31,7 +31,7 @@ class human
 
 
 
-public class thiss
+public class Thiss
 {
     public static void main(String args[])
     {

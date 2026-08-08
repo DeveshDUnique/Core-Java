@@ -1,7 +1,7 @@
 
 
 
-public class naming_convention
+public class NamingConvention
 {
     
 }

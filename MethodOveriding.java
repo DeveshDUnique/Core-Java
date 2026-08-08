@@ -17,7 +17,7 @@ class advcalc extends calc
 
 
 
-public class method_overiding 
+public class MethodOveriding 
 {
     public static void main(String args[])
     {

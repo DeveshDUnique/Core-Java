@@ -1,4 +1,4 @@
-public class switch_statements {
+public class SwitchStatements {
     public static void main (String[] args)
     {
 
