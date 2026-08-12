@@ -1,4 +1,4 @@
-class read{
+class Read{
 
     public int prints(int n1,int n2)
     {
@@ -12,16 +12,16 @@ class read{
 
 
 
-public class class_objects 
+public class ClassObjects 
 {
     public static void main(String[] args)
     {
-        int num1=4, num2= 5;
+        int num1 =4 , num2 = 5;
         int result = num1 + num2;
 
         System.out.println((result));
 
-        read rs = new read();  // creating object of read class
+        Read rs = new Read();  // creating object of read class
         int output = rs.prints(2,3); // calling prints method with rs object.
 
         System.out.println((output));

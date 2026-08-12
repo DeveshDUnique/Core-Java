@@ -1,4 +1,4 @@
-class human
+class Human
 {
 
     private int age;
@@ -20,33 +20,33 @@ class human
         this.name = name;
     }
 
-    public human() // default constructor
+    public Human() // default constructor
     {
         age= 11;
         name = "shiv";
-        System.out.println(("In constructor"));
+        System.out.println(("In default constructor"));
     }
 
     // parameterised constructor
-    public human(int age,String name) //constructor overloading
+    public Human(int age,String name) //constructor overloading
     {
         System.out.println(age + " " + name);
     }
 
 }
 
-public class constructor 
+public class Constructors 
 {
     public static void main(String args[])
     {
-        human hu = new human(); // the number of times the object is created the constructor will be called.
+        Human hu = new Human(); // the number of times the object is created the default constructor will be called.
         System.out.println(hu.getAge() + " "+hu.getName());
 
-        human ha = new human(13,"veran"); //
-        System.out.println(ha.getAge() +" "+ha.getName());
+        Human ha = new Human(13,"veran"); // parameterised constructor will be called
+        System.out.println(ha.getAge() +" "+ha.getName()); // this calles the default java values
     }
 }
-
+    
 
 
 

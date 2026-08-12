@@ -1,4 +1,4 @@
-public class mainMethod_overloading 
+public class MainMethodOverloading 
 {
 
     public static void main() {
@@ -8,14 +8,14 @@ public class mainMethod_overloading
     }
 
     public static void main(String args) {
-        System.out.println("main with string arguments " + args);
+        System.out.println(args +" main with string arguments");
         
     }
 
     public static void main(String[] args) 
     {
         main();
-        main("OverloadMain");
+        main("Overloading");
 
         
     }
