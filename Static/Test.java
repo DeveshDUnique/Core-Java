@@ -1,3 +1,5 @@
+package Static;
+
 public class Test {
   
         public static void method2() {

@@ -1,3 +1,5 @@
+package Static;
+
 public class StaticStudent {
     
         String name;

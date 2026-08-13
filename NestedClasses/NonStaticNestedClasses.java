@@ -5,7 +5,8 @@ Accessed using outer class object (Object of outer class is MUST).
 Can access static & non-static (private) members of the outer class directly.
 The outer class can access all members (including private) of inner class directly (no need of getter/setter).
 The non-static member classes can be private, public, protected, or default.
-If Inner class member has same name as of outer class member, it shadows (hides) the outer class member. Such Outer class members can be accessed
+If Inner class member has same name as of outer class member, it shadows (hides) the outer class member.
+Such Outer class members can be accessed
 explicitly using Outer.this. */
 public class NonStaticNestedClasses {
 

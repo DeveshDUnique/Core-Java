@@ -12,18 +12,32 @@ public class StaticNestedClasses {
     
     public static class InnerStaticNestedClasses {
         private static String st = "Hello";
+
+
         public void display() {
            // System.out.println("Outer.nonStaticField = " + nonStaticField); // error
             System.out.println("Outer.staticField = " + staticField); // ok - 20
             }  
+
+        public static void displayStatic() {
+            System.out.println("Outer.staticField = " + staticField); // ok - 20
+        }
     }
 
     public static void main(String[] args) {
-        StaticNestedClasses.InnerStaticNestedClasses obj = new StaticNestedClasses.InnerStaticNestedClasses();
-        obj.display();
-        System.out.println(obj.st);
 
         StaticNestedClasses sn = new StaticNestedClasses();
+
+        // System.out.println(obj.nonStaticField); // error - cannot access non-static field
+
         System.out.println(sn.nonStaticField);
+
+        System.out.println(StaticNestedClasses.staticField); //accessing outerstatic field directly via class name.
+
+        System.out.println(StaticNestedClasses.InnerStaticNestedClasses.st); //accessing inner static field directly via class name.
+
+        StaticNestedClasses.InnerStaticNestedClasses.displayStatic(); //accessing innerclass static method directly via class name.
+
+
     }
 }

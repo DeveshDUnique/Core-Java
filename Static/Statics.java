@@ -1,12 +1,4 @@
-
-import static TEST.Test.*;   // importing the static package
-
-// statics are used in
-// Static Fields
-// Static methods
-// Static Block
-//  static imports
-
+package Static;
 
 class Mobile
 {
@@ -27,7 +19,7 @@ class Mobile
 
     public Mobile()  // connstructor of class mobile.
     {
-        brand = "";
+        brand = "Poco";
         price = 200;
         System.out.println("This is in constructor"); //the number of times object is created the constructor will be  called
 
@@ -56,7 +48,7 @@ Integer.valueOf() (Integer is a class valueOf() is a static method)
 */
 
 
-public class statics
+public class Statics
 {
     /**
      * @param args
@@ -69,16 +61,16 @@ public class statics
 
         Mobile.show1(mb); //calling static method
 
-        method2(); // calling the static packages from another methods.
-        method3();
+        Test.method2(); // calling the static packages from another methods.
+        Test.method3();
         
 
-        // mb.brand = "Apple";
-        // mb.price = 100000;
+         mb.brand = "Apple";
+         mb.price = 100000;
 
-        // mobile.name = "Smartphone"; //static variables are called by class name
+         Mobile.name = "Smartphone"; //static variables are called by class name
 
-        // mb.show();
+         mb.show();
 
 
 
