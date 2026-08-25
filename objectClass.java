@@ -1,4 +1,4 @@
-class laptop
+class Laptop
 {
     String model;
     int prices;
@@ -23,7 +23,7 @@ class laptop
 }
 
 
-public class objectClass 
+public class ObjectClass 
 {
     public static void main(String args[])
     {

@@ -1,3 +1,5 @@
+import Typecasting.A;
+import Typecasting.B;
 
 @Deprecated
 class A

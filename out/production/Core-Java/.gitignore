@@ -1,0 +1,17 @@
+# Ignore compiled class files
+*.class
+
+# Ignore IDE-specific files
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore backup files
+*.bak
+
+# Ignore IntelliJ project files
+*.iml

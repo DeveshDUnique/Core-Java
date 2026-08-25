@@ -1,3 +1,7 @@
+import A;
+import B;
+
+package Typecasting;
 class A
 {
     public void show1()

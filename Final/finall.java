@@ -24,7 +24,7 @@ class AdvCalc extends Calc  // cannot overide the final parent class
 }
 
 
-public class finall 
+public class Finall 
 {
     public static void main(String args[])
     {
