@@ -20,15 +20,15 @@ class ObjectBox {
 	}
 }
 
-// Java 5.0+
-static class GenericBox<TYPE> 
+//  Java 5.0+
+static class GenericBox<T>
 {
-	private TYPE data;
-	public void set(TYPE val) 
+	private T data;  //private T data;
+	public void set(T val) 
 	{
 		this.data = val;
 	}
-	public TYPE get() 
+	public T get() 
 	{
 		return this.data;
 	}

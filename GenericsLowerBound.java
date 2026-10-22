@@ -28,7 +28,7 @@ public class GenericsLowerBound<T>
 	public static void main(String[] args) 
 	{
 	    GenericsLowerBound<Number> b1 = new GenericsLowerBound<>(); // Only the Number and its parent class can be called with  super as its lowerbound
-	    b1.set(1234); // setting a number only
+	    b1.set(33.74); // setting a number only
 	    // GenericsLowerBound<Boolean> b2 = new GenericsLowerBound<>();
 	    // b2.set(true);
 	    // GenericsLowerBound<Character> b3 = new GenericsLowerBound<>();

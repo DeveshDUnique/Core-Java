@@ -20,7 +20,10 @@ public class Operators {
 
 
         for(int i = 0; i < 26; i++) {
-            System.out.print((char)('a' + i) + " ");
+            System.out.print((char)('a' + i) + " "); //each iteration produces a concatenated String containing the character and a space. Since strings are immutable, concatenation creates a new object string
         }
+
+
+        
     }
 }
